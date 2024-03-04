@@ -68,7 +68,11 @@ alias ghrcpub='() {gh repo create git@github.com:CaioMeorin/$1.git --source . --
 alias flake="nix --extra-experimental-features 'nix-command flakes' flake"
 alias nix="nix --extra-experimental-features 'nix-command flakes'"
 alias cpzsh='sudo cp ~/.zshrc ~/ubuntuconfig/'
-alias lsc='ls -altchLpR1 --hyperlink --group-directories-first'
+alias lsc='ls -altchLp1 --hyperlink --group-directories-first'
+alias rgaiops='rg -aiops'
+alias rgf='rg --files | rg'
+alias rgrmi='() { rm $2 $(rgf -v $1) }' # remove files ignoring files containing the pattern passsed to $1
+                                        # if $2 passed, will apply option to rm, as -rf, for example
 
 #~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#
 
@@ -87,7 +91,6 @@ alias pvi='pyenv install'
 alias pv='pyenv version'
 # Python environments list - checks all virtualenvironments
 alias pel='pyenv virtualenvs'
-alias grep='rg -aiops'
 
 #~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#
 
