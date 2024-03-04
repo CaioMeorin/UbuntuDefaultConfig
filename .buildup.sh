@@ -23,6 +23,12 @@ curl -L git.io/antigen > ~/antigen.zsh
 sudo mkdir ~/.config/kitty
 cp ./kitty.conf ~/.config/kitty/
 
+# Download Fira Code Nerd Font
+curl -OL https://github.com/ryanoasis/nerd-fonts/releases/latest/download/FiraCode.zip
+sudo unzip FiraCode.zip -d ~/.local/share/fonts
+sudo rm FiraCode.zip
+fc-cache -f -v
+
 # Install Google Chrome
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb && sudo dpkg -i google-chrome-stable_current_amd64.deb && sudo rm google-chrome-stable_current_amd64.deb
 

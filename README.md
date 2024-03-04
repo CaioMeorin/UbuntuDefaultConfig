@@ -52,6 +52,7 @@ Usually, this is the first thing I run after configuring my SSH to use git/githu
 `neovim`
 `nix`
 `tmux-plugins`
+`Fira Code Nerd Font`
 
 ## Installation
  
