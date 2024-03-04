@@ -1,6 +1,7 @@
 #!/bin/bash
 
-# Moving config files
+# Moving config files.
+# THESE ARE PERSONAL CONFIG FILES. ADD/REPLACE THEM AS YOU WISH.
 sudo cp .zshrc ~
 sudo cp -r .tmux ~
 sudo cp .tmux.conf ~
