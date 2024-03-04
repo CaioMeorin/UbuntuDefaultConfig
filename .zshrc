@@ -1,4 +1,4 @@
-# Preferred editor for local and remote sessions 
+# Preferred editor for local and remote sessions
 if [[ -n $SSH_CONNECTION ]]; then
     export EDITOR='vim'
 else
@@ -43,5 +43,6 @@ alias ghrcpub='() {gh repo create git@github.com:CaioMeorin/$1.git --source . --
 alias flake="nix --extra-experimental-features 'nix-command flakes' flake"
 alias nix="nix --extra-experimental-features 'nix-command flakes'"
 alias cpzsh='sudo cp ~/.zshrc ~/ubuntuconfig/'
+alias lsc='ls -altchLpR1 --hyperlink --group-directories-firstonls -altchLpR1 --hyperlink --group-directories-first'
 
 if [ -e /home/cmeorin/.nix-profile/etc/profile.d/nix.sh ]; then . /home/cmeorin/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
