@@ -63,4 +63,4 @@ git clone git@github.com/CaioMeorin/ubuntuconfig.git && cd UbuntuDefaultConfig &
 3. Wait until finish;
 4. Log in;
 
-# ✨ Enjoy the non-effort-configurated system! ✨
+# ✨ Enjoy the effortless-configurated system! ✨
