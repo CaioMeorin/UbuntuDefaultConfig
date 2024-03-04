@@ -1,4 +1,6 @@
 # UbuntuDefaultConfig
+For those who just want to get things done without reading anything, check the [installation|https://github.com/CaioMeorin/UbuntuDefaultConfig/tree/main?tab=readme-ov-file#installation] section.
+
 This repo adds default packages and configurations that **I** like use in Ubuntu.
 Usually, this is the first thing I run after configuring my SSH to use git/github in my system.
 
