@@ -68,7 +68,7 @@ alias ghrcpub='() {gh repo create git@github.com:CaioMeorin/$1.git --source . --
 alias flake="nix --extra-experimental-features 'nix-command flakes' flake"
 alias nix="nix --extra-experimental-features 'nix-command flakes'"
 alias cpzsh='sudo cp ~/.zshrc ~/ubuntuconfig/'
-alias lsc='ls -altchLpR1 --hyperlink --group-directories-firstonls -altchLpR1 --hyperlink --group-directories-first'
+alias lsc='ls -altchLpR1 --hyperlink group-directories-first'
 
 #~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#
 
