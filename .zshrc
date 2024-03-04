@@ -87,6 +87,7 @@ alias pvi='pyenv install'
 alias pv='pyenv version'
 # Python environments list - checks all virtualenvironments
 alias pel='pyenv virtualenvs'
+alias grep='rg -aiops'
 
 #~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#
 
