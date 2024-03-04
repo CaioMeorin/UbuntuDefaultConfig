@@ -27,7 +27,7 @@ Usually, this is the first thing I run after configuring my SSH to use git/githu
 `cmake` - **Used to compile and install LuaJIT and latest NeoVim version** \
 `gettext` - **Used to compile and install latest NeoVim version** \
 `git` - **Used to download NeoVim, Antigen, tmux-plugins and LuaJIT** \
-`wget` - **Used to download Chrome** \
+`wget` - **Used to download Chrome**
 
 #### Personal Packages
 `build-essential`
