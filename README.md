@@ -24,10 +24,10 @@ Usually, this is the first thing I run after configuring my SSH to use git/githu
 ### Packages installed from Aptitude
 
 #### Dependencies
-`cmake` - **Used to compile and install LuaJIT and latest NeoVim version**
-`gettext` - **Used to compile and install latest NeoVim version**
-`git` - **Used to download NeoVim, Antigen, tmux-plugins and LuaJIT**
-`wget` - **Used to download Chrome**
+`cmake` - **Used to compile and install LuaJIT and latest NeoVim version** \n
+`gettext` - **Used to compile and install latest NeoVim version** \n
+`git` - **Used to download NeoVim, Antigen, tmux-plugins and LuaJIT** \n
+`wget` - **Used to download Chrome** \n
 
 #### Personal Packages
 `build-essential`
