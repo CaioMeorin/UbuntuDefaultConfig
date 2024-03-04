@@ -6,7 +6,7 @@ Usually, this is the first thing I run after configuring my SSH to use git/githu
 ### First stage - buildup.sh
 1. Execute `buildup.sh` or copy the command at the Installation section, at the end of this file to execute everything automatically;
 2. Copies `.zshrc`, `.tmux` and `.tmux.conf` to home;
-3. Set permission to execute `.buildup.sh`, where the main logic is placed.
+3. Set permission to execute `.buildup.sh`, where the main logic is placed;
 4. Execute `.buildup.sh`
 
 ### Second stage - .buildup.sh
