@@ -3,7 +3,7 @@
 # Upgrading  and installing core apps (for me)
 sudo apt-get update
 sudo apt-get upgrade
-sudo apt install git vim build-essential python3.12-full gh perl wget fzf fd-find zsh ripgrep kitty tmux nodejs cmake gettext npm -y
+sudo apt install git vim curl build-essential python3.12-full gh perl wget fzf fd-find zsh ripgrep kitty tmux nodejs cmake gettext npm -y
 
 # Setting default terminal
 sudo update-alternatives --config x-terminal-emulator 2
