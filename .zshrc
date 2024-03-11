@@ -12,6 +12,8 @@ fi
 [[ -z "$TMUX" ]] && { tmux attach-session -t $USER || tmux new -s $USER -n "main"}
 source ~/antigen.zsh
 
+export AUTOSWITCH_DEFAULT_PYTHON="/usr/bin/python3.12"
+export AUTOSWITCH_VIRTUAL_ENV_DIR=".virtualenv"
 #~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#
 
 #*~*~*~*~*~*~*~*~*~*~*~*~*~*#
@@ -41,6 +43,9 @@ antigen bundle zsh-users/zsh-history-substring-search ./zsh-history-substring-se
 antigen bundle zsh-users/zsh-autosuggestions
 # NVM bundle
 antigen apply
+plugins=(autoswitch_virtualenv $plugins)
+source $ZSH/oh-my-zsh.sh
+
 
 #~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#
 

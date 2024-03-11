@@ -39,6 +39,9 @@ sh <(curl -L https://nixos.org/nix/install) --no-daemon
 # Install luajit (needed for Neovim)
 git clone https://luajit.org/git/luajit.git && cd luajit && make && sudo make install && cd .. && rm -rf luajit
 
+# Installing auto switch env for python"
+git clone "https://github.com/MichaelAquilina/zsh-autoswitch-virtualenv.git" "$ZSH_CUSTOM/plugins/autoswitch_virtualenv"
+
 # Latest Neovim
 git clone https://github.com/neovim/neovim.git && cd neovim && make CMAKE_BUILD_TYPE=RelWithDebInfo && sudo make install && cd .. && rm -rf neovim
 
