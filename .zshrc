@@ -73,24 +73,7 @@ alias rgaiops='rg -aiops'
 alias rgf='rg --files | rg'
 alias rgrmi='() { rm $2 $(rgf -v $1) }' # remove files ignoring files containing the pattern passsed to $1
                                         # if $2 passed, will apply option to rm, as -rf, for example
-
-#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#
-
-#*~*~*~*~*~*~*~*~*~*~*~*~*~*#
-#~*~*~*~*~* PYENV ~*~*~*~*~*#
-#*~*~*~*~*~*~*~*~*~*~*~*~*~*#
-
-# List python versions. Uses grep if $1
-alias pel='() { pyenv install --list | grep $1}'
-# Python environment install, install version $1 with name $2, and also
-# sets the local environment to $2 (auto switch)
-alias pei='() { pyenv virtualenv $1 $2 | pyenv local $2 }'
-# Python version install - install version
-alias pvi='pyenv install'
-# Python version check - check which env we are in
-alias pv='pyenv version'
-# Python environments list - checks all virtualenvironments
-alias pel='pyenv virtualenvs'
+alias cdn='cd ~/.config/nvim'
 
 #~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#
 
