@@ -59,7 +59,7 @@ Usually, this is the first thing I run after configuring my SSH to use git/githu
 1. First, configure git SSH, otherwishe, some downloads might be blocked
 2. Copy and execute the code below in your terminal:
 ```
-git clone git@github.com/CaioMeorin/ubuntuconfig.git && cd UbuntuDefaultConfig && chmod 777 buildup.sh
+git clone git@github.com:CaioMeorin/UbuntuDefaultConfig.git && cd UbuntuDefaultConfig && chmod 777 buildup.sh && ./buildup.sh
 ```
 3. Wait until finish;
 4. Log in;
